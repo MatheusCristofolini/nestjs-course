@@ -6,8 +6,6 @@ import { AppService } from './app.service';
 import { CoffeeRatingModule } from './coffee-rating/coffee-rating.module';
 import { CoffeesModule } from './coffees/coffees.module';
 import appConfig from './config/app.config';
-import { CoffeeRatingModule } from './coffee-rating/coffee-rating.module';
-import { DatabaseModule } from './database/database.module';
 
 @Module({
   imports: [
