@@ -7,3 +7,11 @@ services:
       - "5432:5432"
     environment:
       POSTGRES_PASSWORD: admin
+  test-db:
+    container_name: nesjs-course-test-db
+    image: postgres
+    restart: always
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_PASSWORD: admin
